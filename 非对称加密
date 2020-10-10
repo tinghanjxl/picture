@@ -1,1 +1,85 @@
-<mxfile host="app.diagrams.net" modified="2020-10-10T06:47:12.998Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" version="13.7.9" etag="gxd6wXIaaTsc5SdId2oi" type="github"><diagram id="rd73hOs5wYgWvaRc0vLJ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-10-10T07:38:55.359Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="QR83hXB10bNXUEM6Qg6t" version="13.7.9" type="github">
+  <diagram id="rd73hOs5wYgWvaRc0vLJ" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dgVV3YGWoWuHKqugATpa-1" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;arial&amp;#34; , , sans-serif ; font-size: 14px ; text-indent: 28px ; background-color: rgb(255 , 255 , 255)&quot;&gt;publickey&lt;/span&gt;" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.key_permissions" vertex="1" parent="1">
+          <mxGeometry x="431" y="373" width="26" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dgVV3YGWoWuHKqugATpa-2" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;arial&amp;#34; , , sans-serif ; font-size: 14px ; text-indent: 28px&quot;&gt;privatekey&lt;/span&gt;" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Key.svg;" vertex="1" parent="1">
+          <mxGeometry x="737" y="370" width="31" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dgVV3YGWoWuHKqugATpa-4" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;arial&amp;#34; , , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;plaintext&lt;/span&gt;" style="shape=message;whiteSpace=wrap;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="251" y="420" width="135" height="63.5" as="geometry" />
+        </mxCell>
+        <mxCell id="dgVV3YGWoWuHKqugATpa-5" value="&lt;span style=&quot;font-size: 14px; text-indent: 28px;&quot;&gt;ciphertext&lt;/span&gt;" style="shape=message;whiteSpace=wrap;html=1;outlineConnect=0;strokeWidth=2;fillColor=#b1ddf0;strokeColor=#10739e;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="548" y="423" width="137" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="dgVV3YGWoWuHKqugATpa-8" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;arial&amp;#34; , , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;plaintext&lt;/span&gt;" style="shape=message;whiteSpace=wrap;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="824" y="416.63" width="141" height="60.25" as="geometry" />
+        </mxCell>
+        <mxCell id="dgVV3YGWoWuHKqugATpa-9" value="" style="shape=flexArrow;endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dgVV3YGWoWuHKqugATpa-4" target="dgVV3YGWoWuHKqugATpa-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="437" y="489" as="sourcePoint" />
+            <mxPoint x="528" y="459" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgVV3YGWoWuHKqugATpa-11" value="" style="shape=flexArrow;endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="dgVV3YGWoWuHKqugATpa-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="715" y="505" as="sourcePoint" />
+            <mxPoint x="824" y="452" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgVV3YGWoWuHKqugATpa-12" value="&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bspan%20style%3D%26quot%3Bcolor%3A%20rgb(51%20%2C%2051%20%2C%2051)%20%3B%20font-family%3A%20%26amp%3B%2334%3Barial%26amp%3B%2334%3B%20%2C%20%2C%20sans-serif%20%3B%20background-color%3A%20rgb(255%20%2C%20255%20%2C%20255)%26quot%3B%26gt%3Bplaintext%26lt%3B%2Fspan%26gt%3B%22%20style%3D%22shape%3Dmessage%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BoutlineConnect%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22292%22%20y%3D%22437%22%20width%3D%22103%22%20height%3D%2244%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="447" y="479" width="10" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="dgVV3YGWoWuHKqugATpa-14" value="&lt;span style=&quot;font-family: &amp;#34;microsoft yahei&amp;#34; ; font-size: large&quot;&gt;encrypt a message&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="377" y="492" width="171" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="dgVV3YGWoWuHKqugATpa-15" value="&lt;span style=&quot;font-family: &amp;#34;microsoft yahei&amp;#34; ; font-size: large&quot;&gt;decrypt the message&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="656" y="492" width="189" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="dgVV3YGWoWuHKqugATpa-17" value="" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.lock;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="555" y="436" width="16.77" height="21.5" as="geometry" />
+        </mxCell>
+        <mxCell id="dgVV3YGWoWuHKqugATpa-19" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;arial&amp;#34; , , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;plaintext&lt;/span&gt;" style="shape=message;whiteSpace=wrap;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="251" y="594" width="135" height="63.5" as="geometry" />
+        </mxCell>
+        <mxCell id="dgVV3YGWoWuHKqugATpa-20" value="&lt;font style=&quot;font-size: 15px&quot;&gt;signature&lt;/font&gt;" style="shape=message;whiteSpace=wrap;html=1;outlineConnect=0;strokeWidth=2;fillColor=#b1ddf0;strokeColor=#10739e;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="548" y="594" width="137" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="dgVV3YGWoWuHKqugATpa-21" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;arial&amp;#34; , , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;plaintext&lt;/span&gt;" style="shape=message;whiteSpace=wrap;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="824" y="596.25" width="144" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="dgVV3YGWoWuHKqugATpa-22" value="" style="shape=flexArrow;endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="386" y="625.25" as="sourcePoint" />
+            <mxPoint x="548" y="625.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgVV3YGWoWuHKqugATpa-23" value="" style="shape=flexArrow;endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="dgVV3YGWoWuHKqugATpa-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="683.5" y="625.63" as="sourcePoint" />
+            <mxPoint x="824" y="624" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgVV3YGWoWuHKqugATpa-24" value="" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.lock;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="552" y="612" width="16.77" height="21.5" as="geometry" />
+        </mxCell>
+        <mxCell id="dgVV3YGWoWuHKqugATpa-25" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;arial&amp;#34; , , sans-serif ; font-size: 14px ; text-indent: 28px&quot;&gt;privatekey&lt;/span&gt;" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Key.svg;" vertex="1" parent="1">
+          <mxGeometry x="431" y="542" width="31" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dgVV3YGWoWuHKqugATpa-26" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;arial&amp;#34; , , sans-serif ; font-size: 14px ; text-indent: 28px ; background-color: rgb(255 , 255 , 255)&quot;&gt;publickey&lt;/span&gt;" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.key_permissions" vertex="1" parent="1">
+          <mxGeometry x="737.5" y="542" width="26" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dgVV3YGWoWuHKqugATpa-27" value="&lt;span style=&quot;font-family: &amp;#34;microsoft yahei&amp;#34; ; font-size: large&quot;&gt;encrypt a message&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="361" y="680" width="171" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="dgVV3YGWoWuHKqugATpa-28" value="&lt;span style=&quot;font-family: &amp;#34;microsoft yahei&amp;#34; ; font-size: large&quot;&gt;decrypt the message&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="656" y="680" width="189" height="21" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
